@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo nvidia-smi -pm 1
 
 sudo nvidia-smi -pl 125 -i 0
