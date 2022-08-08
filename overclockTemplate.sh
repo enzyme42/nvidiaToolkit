@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo nvidia-xconfig -a --cool-bits=31 --allow-empty-initial-configuration
+
 _GPU_ID = "0"
 _WATTS = "111"
 _ATTRIBUTE = "[gpu:$_GPU_ID]/GPUMemoryTransferRateOffsetAllPerformanceLevels=2400"
