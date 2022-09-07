@@ -34,9 +34,9 @@ DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:0]/GPUMem
 #DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:3]/GPUGraphicsClockOffset[0]=0
 
 # SET MEMORY TRANSFER RATE OFFSET
-#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[]=0
-#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:1]/GPUMemoryTransferRateOffset[]=0
-#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:2]/GPUMemoryTransferRateOffset[]=0
-#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:3]/GPUMemoryTransferRateOffset[]=0
+#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:0]/GPUMemoryTransferRateOffset[0]=0
+#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:1]/GPUMemoryTransferRateOffset[0]=0
+#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:2]/GPUMemoryTransferRateOffset[0]=0
+#DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -a [gpu:3]/GPUMemoryTransferRateOffset[0]=0
 
 ###
