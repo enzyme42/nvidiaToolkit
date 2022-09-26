@@ -3,6 +3,9 @@
 # ENABLE PERSISTENCE
 sudo nvidia-smi -pm 1
 
+# ENABLE COOLBITS AND HEADLESS DISPLAYS
+sudo nvidia-xconfig -a --cool-bits=31 --allow-empty-initial-configuration
+
 # SET POWER LIMIT
 sudo nvidia-smi -pl 123 -i 0
 #sudo nvidia-smi -pl 123 -i 1
